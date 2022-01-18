@@ -13,8 +13,8 @@ is more than one standard deviation from its 24hr average.
 * [Optional] Install [jq](https://stedolan.github.io/jq/) if you would like the JSON output to be pretty printed
     * Once installed, you can pipe commands in the Run section below to jq, like so:
     * ```shell
-    $ python3 api_alerts.py | jq .
-    ```
+      $ python3 api_alerts.py | jq .
+      ```
 
 ## Run
 After cloning the repo, this script can be run locally or with Docker.
